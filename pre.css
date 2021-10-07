@@ -150,7 +150,11 @@ img{
     
 
 
-
+    iframe{
+        
+         border-radius:15px;
+         border:2px solid red;
+         }
 
 
 
@@ -242,4 +246,18 @@ footer{
                 height:auto;
                        }
 
-    }
+
+
+                       iframe{
+                        width:98%; 
+                       height:300px;
+                         border-radius:15px;
+                         border:2px solid red;
+                         }
+    
+    
+    
+    
+                        
+                        
+                        }

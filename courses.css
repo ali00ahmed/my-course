@@ -73,6 +73,7 @@ a:hover{
 
 transition:0.4s;
 background:linear-gradient(#000e8a, #4b0082);
+cursor: cell;
 }
 
 body{
@@ -100,7 +101,7 @@ img{
     top:-100px;
     border-radius:50%;
     transform: rotate(360deg);
-    cursor:alias;
+    cursor:cell;
     border-radius:50%;
     }
     
