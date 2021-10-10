@@ -103,7 +103,7 @@ body{
 
    background-image:linear-gradient(#43cea2 , #004e92);
     
-    min-height: 880px;
+    min-height:880px;
 
     
 }
@@ -294,8 +294,7 @@ left:3%;
       height:40px;
       background: rgb(0, 0, 0);
       transform:translate();
-      position:absolute;
-      top:155%;
+      margin-top:100%;
       }
       p{
       text-align:center;
@@ -338,5 +337,8 @@ left:3%;
       right:3%
     }
     
+
+ 
+
 
 }
