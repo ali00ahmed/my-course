@@ -294,8 +294,8 @@ left:3%;
       height:40px;
       background: rgb(0, 0, 0);
       transform:translate();
-      margin-top: 220%;
-      margin-bottom:0%
+      position:absolute;
+      top:155%;
       }
       p{
       text-align:center;
@@ -331,7 +331,7 @@ left:3%;
       padding: 14px 0% 14px 0px;
       width: 200px;
       outline: none;
-      color: rgb(181, 0, 253);
+      color: rgb(255, 255, 255);
       border-radius: 24px;
       transition:1s;
       position: relative;
