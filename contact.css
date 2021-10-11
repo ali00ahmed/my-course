@@ -67,6 +67,8 @@ a:hover {
 body {
     background-image: linear-gradient(#43cea2, #004e92);
     min-height: 880px;
+    
+
 }
 
 b {
@@ -133,6 +135,21 @@ b {
     border: black 2px solid;
     border-radius: 10px;
     text-align: center;
+    transition: 1s;
+}
+
+.box:hover {
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(#035ead, #16815f);
+    border: black 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    transition:1s;
 }
 
 .box h1 {
@@ -156,6 +173,7 @@ b {
     border-radius: 24px;
     transition: 1s;
 }
+
 
 .logo {
     animation: lop 4s infinite;
@@ -199,6 +217,13 @@ b {
     background: #2ecc71;
 }
 
+
+.lio:hover{
+
+background: none;
+
+}
+
 footer {
     width: 100%;
     height: 40px;
@@ -225,7 +250,7 @@ p {
         padding-top: 10px;
     }
     .box {
-        width: 270px;
+        width: 250px;
         padding: 40px;
         position: absolute;
         top: 50%;
@@ -265,4 +290,26 @@ p {
         position: absolute;
         bottom: -350px;
     }
+
+    .box:hover {
+        width: 270px;
+        padding: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-image: linear-gradient(#035ead, #16815f);
+        border: black 2px solid;
+        border-radius: 10px;
+        text-align: center;
+        transition:1s;
+    }
+
+
+
+
+
+
+
+
 }
